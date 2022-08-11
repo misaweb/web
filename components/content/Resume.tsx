@@ -15,7 +15,7 @@ export const Resume: React.FC = () => (
     </p>
 
     <div className="flex my-8">
-      <a className="mx-auto bg-theme-yellow p-4 rounded text-dark-blue hover:bg-theme-blue focus:bg-theme-blue" href="/resume.pdf">
+      <a className="mx-auto bg-theme-yellow p-4 rounded text-dark-blue hover:bg-theme-blue focus:bg-theme-blue" href={`${baseUrl}/resume.pdf`}>
         Download Resume
       </a>
     </div>
