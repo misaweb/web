@@ -1,0 +1,47 @@
+{
+  "name": "michaelasomolova",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint:ts": "eslint --ext .ts,.tsx . --max-warnings=0",
+    "lint:ts:fix": "eslint --fix --ext .ts,.tsx . --max-warnings=0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "^11.1.2",
+    "next-seo": "^4.7.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-gtm-module": "^2.0.11",
+    "react-icons": "^3.10.0",
+    "react-pdf": "^5.3.2",
+    "remark-parse": "^8.0.3",
+    "remark-react": "^7.0.1",
+    "sass": "^1.30.0",
+    "unified": "^9.2.0",
+    "webp-loader": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.22",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-gtm-module": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.0.5",
+    "eslint-plugin-typescript-sort-keys": "^1.8.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.6.2",
+    "typescript": "^4.4.3"
+  }
+}

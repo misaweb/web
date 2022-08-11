@@ -1,0 +1,30 @@
+.container {
+    color: #ffd58c;
+    flex-flow: row-reverse;
+    position: fixed;
+    right: 5px;
+    top: 80px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid;
+    @apply border-theme-yellow;
+    @apply bg-dark-blue;
+}
+
+@screen sm {
+    .container {
+        border: none;
+        height: 40px;
+        top: unset;
+        right: unset;
+        padding: unset;
+        position: relative;
+    }
+}
+
+.link {
+    border: 2px solid #ffd58c;
+    border-left: 0;
+    border-right: 0;
+
+}
