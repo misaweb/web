@@ -10,6 +10,10 @@ const env = {
 module.exports = {
   basePath: basePrefix,
   env,
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
   // images: {
   //   disableStaticImages: true
   // }
